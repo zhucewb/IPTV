@@ -19,7 +19,7 @@ max_lines_per_channel = 8
 # main.py 会依次请求这些地址，提取频道名和播放地址
 # 注：被注释掉的源暂时停用，可取消注释启用
 source_urls = [
-    "https://iptv.166619.xyz/sdu.m3u",
+    "https://raw.githubusercontent.com/zhucewb/IPTV/refs/heads/main/selected.m3u",
 ]
 
 # ── 酒店源 ────────────────────────────────────────────
@@ -30,8 +30,8 @@ source_urls = [
 #                      "Alibaba Cloud", "Tencent" 等
 hotel_config = {
     "hotel_api": "",
-    "enabled": True,
-    "allowed_orgs": ["China Mobile","Alibaba Cloud"],
+    "enabled": False,
+    "allowed_orgs": [],
 }
 
 # ── URL 黑名单 ───────────────────────────────────────────────────────
