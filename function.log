@@ -1,42 +1,48 @@
-2026-11-15 09:30:26,421 - WARNING - [EPG映射] 所有 EPG 源均加载失败，将使用默认数字 ID
-2026-11-15 09:30:26,574 - INFO - url: https://raw.githubusercontent.com/zhucewb/IPTV/refs/heads/main/selected.m3u 获取成功，判断为m3u格式
-2026-11-15 09:30:26,575 - INFO - url: https://raw.githubusercontent.com/zhucewb/IPTV/refs/heads/main/selected.m3u 抓取成功，包含频道分类: 央视频道, 教育频道, 卫视频道, 地方频道
-2026-11-15 09:30:26,984 - INFO - [质量检测] 开始...
-2026-11-15 09:30:26,985 - INFO - 开始质量检测，共 579 个 URL，并发数 80，HTTP 超时 3.5s，FFprobe 启用，超时 3.5s，深度探测启用，超时 5.0s，最小速度 2500kbps
-2026-11-15 09:41:09,336 - INFO - 质量检测完成: 总计=579 通过=396 失败=92 超时=80 错误=11
-2026-11-15 09:41:09,337 - INFO - 过滤后: 保留 269 个有效源，移除 78 个失效源
-2026-11-15 09:41:09,337 - INFO - [黑名单建议] 以下域名检测频繁失败，可考虑加入 url_blacklist：
-2026-11-15 09:41:09,337 - INFO -   http://hlsztemgsplive.miguvideo.com:8080  失败次数=80  (failed=80)
-2026-11-15 09:41:09,337 - INFO -   http://116.52.173.39:1234  失败次数=17  (timeout=17)
-2026-11-15 09:41:09,337 - INFO -   http://123.53.42.5:5678  失败次数=15  (timeout=15)
-2026-11-15 09:41:09,337 - INFO -   http://113.98.11.46:3000  失败次数=9  (error=9)
-2026-11-15 09:41:09,337 - INFO -   http://119.119.63.189:8095  失败次数=7  (timeout=7)
-2026-11-15 09:41:09,337 - INFO -   http://tvcdn.stream3.hndt.com  失败次数=7  (failed=7)
-2026-11-15 09:41:09,337 - INFO -   http://207.56.13.146:81  失败次数=4  (timeout=4)
-2026-11-15 09:41:09,338 - INFO -   https://m3u8.channel.dzsm.com  失败次数=4  (timeout=4)
-2026-11-15 09:41:09,338 - INFO -   http://112.27.5.218:9901  失败次数=3  (timeout=3)
-2026-11-15 09:41:09,338 - INFO -   http://genglei.8866.org:9901  失败次数=3  (timeout=3)
-2026-11-15 09:41:09,338 - INFO -   https://idclive.hljtv.com:4430  失败次数=3  (timeout=3)
-2026-11-15 09:41:09,338 - INFO -   http://tvpull.dxhmt.cn:9081  失败次数=3  (failed=3)
-2026-11-15 09:41:09,338 - INFO -   http://live.yantaitv.cn  失败次数=3  (timeout=3)
-2026-11-15 09:41:09,338 - INFO -   https://l.cztvcloud.com  失败次数=3  (timeout=3)
-2026-11-15 09:41:09,338 - INFO -   http://l.cztvcloud.com  失败次数=2  (timeout=2)
-2026-11-15 09:41:09,338 - INFO -   http://m3u8.channel.wsrtv.com.cn  失败次数=2  (timeout=2)
-2026-11-15 09:41:09,338 - INFO -   http://live.shaoxing.com.cn  失败次数=2  (timeout=2)
-2026-11-15 09:41:09,338 - INFO -   http://45.192.97.170:8880  失败次数=1  (failed=1)
-2026-11-15 09:41:09,338 - INFO -   http://118.193.115.2:9901  失败次数=1  (timeout=1)
-2026-11-15 09:41:09,338 - INFO -   http://222.128.55.152:9080  失败次数=1  (error=1)
-2026-11-15 09:41:09,338 - INFO -   https://svip.high24-playback.com  失败次数=1  (failed=1)
-2026-11-15 09:41:09,338 - INFO -   http://123.146.162.24:8017  失败次数=1  (timeout=1)
-2026-11-15 09:41:09,338 - INFO -   http://124.88.144.73:1935  失败次数=1  (timeout=1)
-2026-11-15 09:41:09,338 - INFO -   http://file.loulannews.cn  失败次数=1  (error=1)
-2026-11-15 09:41:09,338 - INFO -   http://tvfile.jjrm.org.cn  失败次数=1  (timeout=1)
-2026-11-15 09:41:09,338 - INFO -   http://3gvod.zjgonline.com.cn:1935  失败次数=1  (timeout=1)
-2026-11-15 09:41:09,338 - INFO -   http://channel.wcrmt.cn:80  失败次数=1  (timeout=1)
-2026-11-15 09:41:09,338 - INFO -   http://lxfile.lxxcb.cn:80  失败次数=1  (timeout=1)
-2026-11-15 09:41:09,338 - INFO -   http://ali-vl.cztv.com  失败次数=1  (timeout=1)
-2026-11-15 09:41:09,338 - INFO -   https://live.ottiptv.cc  失败次数=1  (timeout=1)
-2026-11-15 09:41:09,338 - INFO -   http://125.43.249.76:9901  失败次数=1  (timeout=1)
-2026-11-15 09:41:09,338 - INFO -   http://zjtv-wshls.homecdn.com  失败次数=1  (timeout=1)
-2026-11-15 09:41:09,338 - INFO -   https://play.yunxya.com  失败次数=1  (timeout=1)
-2026-11-15 09:41:09,338 - INFO - [质量检测] 完成
+2026-11-16 09:34:46,949 - WARNING - [EPG映射] 所有 EPG 源均加载失败，将使用默认数字 ID
+2026-11-16 09:34:47,138 - INFO - url: https://raw.githubusercontent.com/zhucewb/IPTV/refs/heads/main/selected.m3u 获取成功，判断为m3u格式
+2026-11-16 09:34:47,140 - INFO - url: https://raw.githubusercontent.com/zhucewb/IPTV/refs/heads/main/selected.m3u 抓取成功，包含频道分类: 央视频道, 教育频道, 卫视频道, 地方频道
+2026-11-16 09:34:47,555 - INFO - [质量检测] 开始...
+2026-11-16 09:34:47,556 - INFO - 开始质量检测，共 579 个 URL，并发数 80，HTTP 超时 3.5s，FFprobe 启用，超时 3.5s，深度探测启用，超时 5.0s，最小速度 2500kbps
+2026-11-16 09:44:59,261 - INFO - 质量检测完成: 总计=579 通过=382 失败=104 超时=80 错误=13
+2026-11-16 09:44:59,262 - INFO - 过滤后: 保留 293 个有效源，移除 74 个失效源
+2026-11-16 09:44:59,263 - INFO - [黑名单建议] 以下域名检测频繁失败，可考虑加入 url_blacklist：
+2026-11-16 09:44:59,263 - INFO -   http://hlsztemgsplive.miguvideo.com:8080  失败次数=80  (failed=80)
+2026-11-16 09:44:59,263 - INFO -   http://116.52.173.39:1234  失败次数=17  (timeout=17)
+2026-11-16 09:44:59,263 - INFO -   http://123.53.42.5:5678  失败次数=15  (timeout=15)
+2026-11-16 09:44:59,263 - INFO -   http://153.0.171.163:9901  失败次数=10  (failed=10)
+2026-11-16 09:44:59,263 - INFO -   http://113.98.11.46:3000  失败次数=9  (error=9)
+2026-11-16 09:44:59,263 - INFO -   http://119.119.63.189:8095  失败次数=7  (timeout=7)
+2026-11-16 09:44:59,263 - INFO -   http://tvcdn.stream3.hndt.com  失败次数=7  (failed=7)
+2026-11-16 09:44:59,263 - INFO -   http://207.56.13.146:81  失败次数=4  (timeout=4)
+2026-11-16 09:44:59,263 - INFO -   https://m3u8.channel.dzsm.com  失败次数=4  (timeout=4)
+2026-11-16 09:44:59,263 - INFO -   http://genglei.8866.org:9901  失败次数=3  (timeout=3)
+2026-11-16 09:44:59,263 - INFO -   https://idclive.hljtv.com:4430  失败次数=3  (timeout=3)
+2026-11-16 09:44:59,263 - INFO -   http://tvpull.dxhmt.cn:9081  失败次数=3  (failed=3)
+2026-11-16 09:44:59,263 - INFO -   http://hzcm-live.media.hugd.com  失败次数=3  (timeout=3)
+2026-11-16 09:44:59,263 - INFO -   http://live.yantaitv.cn  失败次数=3  (timeout=3)
+2026-11-16 09:44:59,263 - INFO -   http://gmxw.7766.org:808  失败次数=2  (error=2)
+2026-11-16 09:44:59,263 - INFO -   http://m3u8.channel.wsrtv.com.cn  失败次数=2  (timeout=2)
+2026-11-16 09:44:59,263 - INFO -   https://epg.pw  失败次数=2  (failed=1, timeout=1)
+2026-11-16 09:44:59,264 - INFO -   http://live.shaoxing.com.cn  失败次数=2  (timeout=2)
+2026-11-16 09:44:59,264 - INFO -   http://45.192.97.170:8880  失败次数=1  (failed=1)
+2026-11-16 09:44:59,264 - INFO -   http://bp-resource-dfl.bestv.cn  失败次数=1  (timeout=1)
+2026-11-16 09:44:59,264 - INFO -   https://bp-resource-dfl.bestv.cn  失败次数=1  (timeout=1)
+2026-11-16 09:44:59,264 - INFO -   http://153.0.171.163:85  失败次数=1  (failed=1)
+2026-11-16 09:44:59,264 - INFO -   http://222.128.55.152:9080  失败次数=1  (error=1)
+2026-11-16 09:44:59,264 - INFO -   https://svip.high24-playback.com  失败次数=1  (failed=1)
+2026-11-16 09:44:59,264 - INFO -   http://123.146.162.24:8017  失败次数=1  (timeout=1)
+2026-11-16 09:44:59,264 - INFO -   http://175.155.106.72:89  失败次数=1  (timeout=1)
+2026-11-16 09:44:59,264 - INFO -   https://l.cztvcloud.com  失败次数=1  (timeout=1)
+2026-11-16 09:44:59,264 - INFO -   http://124.88.144.73:1935  失败次数=1  (timeout=1)
+2026-11-16 09:44:59,264 - INFO -   https://l2fpdktp.live.sxmty.com  失败次数=1  (timeout=1)
+2026-11-16 09:44:59,264 - INFO -   http://file.loulannews.cn  失败次数=1  (error=1)
+2026-11-16 09:44:59,264 - INFO -   http://tvfile.jjrm.org.cn  失败次数=1  (timeout=1)
+2026-11-16 09:44:59,264 - INFO -   http://lbyzztfe.live.sxmty.com  失败次数=1  (timeout=1)
+2026-11-16 09:44:59,264 - INFO -   http://3gvod.zjgonline.com.cn:1935  失败次数=1  (timeout=1)
+2026-11-16 09:44:59,264 - INFO -   https://tntgjhjb.live.sxmty.com  失败次数=1  (timeout=1)
+2026-11-16 09:44:59,264 - INFO -   https://1yp7hc5p.live.sxmty.com  失败次数=1  (timeout=1)
+2026-11-16 09:44:59,264 - INFO -   http://channel.wcrmt.cn:80  失败次数=1  (timeout=1)
+2026-11-16 09:44:59,264 - INFO -   http://lxfile.lxxcb.cn:80  失败次数=1  (timeout=1)
+2026-11-16 09:44:59,264 - INFO -   https://live.ottiptv.cc  失败次数=1  (timeout=1)
+2026-11-16 09:44:59,264 - INFO -   http://zjtv-wshls.homecdn.com  失败次数=1  (timeout=1)
+2026-11-16 09:44:59,264 - INFO - [质量检测] 完成
